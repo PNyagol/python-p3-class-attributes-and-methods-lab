@@ -43,3 +43,17 @@ class Song:
             cls.artist_count[artist] += 1
         else:
             cls.artist_count[artist] = 1
+
+
+ninety_nine_problems = Song("99 Problems", "Jay-Z", "Rap")
+some_other_song = Song("Another Song", "Drake", "Pop")
+hall_and_oates_song1 = Song("Song1", "Hall and Oates", "Pop")
+hall_and_oates_song2 = Song("Song2", "Hall and Oates", "Rock")
+
+print(ninety_nine_problems.name)
+print(ninety_nine_problems.artist)
+print(ninety_nine_problems.genre)
+print(Song.count)
+print(Song.genres)
+print(Song.artist_count)
+print(Song.genre_count)
